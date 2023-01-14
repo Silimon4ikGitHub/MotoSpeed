@@ -14,14 +14,13 @@ public class WheelScript : MonoBehaviour
 
     void Start()
     {
-        wheel = transform.gameObject.GetComponent<WheelJoint2D>();
+        wheel = transform.gameObject.GetComponentInParent<WheelJoint2D>();
         motor = wheel.motor;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        force = Input.GetAxis("Horizontal");
+        force = -Input.GetAxis("Horizontal");
         motor.motorSpeed = speed * force;
         wheel.motor = motor;
     }

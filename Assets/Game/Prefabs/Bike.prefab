@@ -176,7 +176,6 @@ GameObject:
   - component: {fileID: 515277449904167852}
   - component: {fileID: 7542445323896519205}
   - component: {fileID: 5668908154412949612}
-  - component: {fileID: 7029185800831666296}
   m_Layer: 0
   m_Name: wheel (1)
   m_TagString: Untagged
@@ -286,30 +285,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!235 &7029185800831666296
-WheelJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2286202607642838096}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 2580652689798978037}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.216, y: -0.704}
-  m_Suspension:
-    m_DampingRatio: 0.7
-    m_Frequency: 2
-    m_Angle: 90
-  m_UseMotor: 1
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
 --- !u!1 &4838571057079028875
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,7 +379,6 @@ GameObject:
   - component: {fileID: 7590665969437625973}
   - component: {fileID: 7250542536339755442}
   - component: {fileID: 4742933670845398306}
-  - component: {fileID: 9163079673783237564}
   m_Layer: 0
   m_Name: wheel
   m_TagString: Untagged
@@ -514,30 +488,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!235 &9163079673783237564
-WheelJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7024069228120432298}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 2580652689798978037}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.126, y: -0.704}
-  m_Suspension:
-    m_DampingRatio: 0.7
-    m_Frequency: 2
-    m_Angle: 90
-  m_UseMotor: 1
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
 --- !u!1 &8848281495860821103
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,6 +499,8 @@ GameObject:
   - component: {fileID: 1068298312980499066}
   - component: {fileID: 2580652689798978037}
   - component: {fileID: 3605862923321751127}
+  - component: {fileID: 3823407936297659164}
+  - component: {fileID: 8094098261186052728}
   m_Layer: 0
   m_Name: Bike
   m_TagString: Untagged
@@ -629,6 +581,54 @@ PolygonCollider2D:
       - {x: 2.1334682, y: 0.16464806}
       - {x: 1.884305, y: -0.22330046}
       - {x: 1.1047316, y: -0.3754201}
+--- !u!235 &3823407936297659164
+WheelJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848281495860821103}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 5668908154412949612}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: -1.2011924, y: -0.8474315}
+  m_ConnectedAnchor: {x: 0.014807582, y: 0.021255553}
+  m_Suspension:
+    m_DampingRatio: 0.7
+    m_Frequency: 2
+    m_Angle: 90
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+--- !u!235 &8094098261186052728
+WheelJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848281495860821103}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 4742933670845398306}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 1.1333282, y: -0.87553954}
+  m_ConnectedAnchor: {x: 0.0073281527, y: 0.017248034}
+  m_Suspension:
+    m_DampingRatio: 0.7
+    m_Frequency: 2
+    m_Angle: 90
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
 --- !u!1 &8982046619819580895
 GameObject:
   m_ObjectHideFlags: 0

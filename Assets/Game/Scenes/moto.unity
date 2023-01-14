@@ -1073,6 +1073,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3823407936297659164, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Suspension.m_Frequency
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742933670845398306, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 516ade21aede87f44ad91f6de7de058b, type: 2}
     - target: {fileID: 5668908154412949612, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_Material
       value: 
@@ -1088,6 +1096,10 @@ PrefabInstance:
     - target: {fileID: 7029185800831666296, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_Suspension.m_Frequency
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8094098261186052728, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Suspension.m_Frequency
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8848281495860821103, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_Name
