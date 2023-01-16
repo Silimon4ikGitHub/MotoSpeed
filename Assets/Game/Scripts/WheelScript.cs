@@ -4,25 +4,23 @@ using UnityEngine;
 
 public class WheelScript : MonoBehaviour
 {
-    public GameObject gm;
-    public WheelJoint2D wheel;
-    public JointMotor2D motor;
+    [SerializeField] private float speed;
+    [SerializeField] private JointMotor2D motor;
 
-    public float speed;
-    public float force;
+    private WheelJoint2D _wheel;
+    private float _force;
     
-
     void Start()
     {
-        wheel = transform.gameObject.GetComponentInParent<WheelJoint2D>();
-        motor = wheel.motor;
+        _wheel = transform.gameObject.GetComponentInParent<WheelJoint2D>();
+        motor = _wheel.motor;
     }
 
     void Update()
     {
-        force = -Input.GetAxis("Horizontal");
-        motor.motorSpeed = speed * force;
-        wheel.motor = motor;
+        _force = -Input.GetAxis("Horizontal");
+        motor.motorSpeed = speed * _force;
+        _wheel.motor = motor;
     }
     void AddMotoreSpeed()
     {

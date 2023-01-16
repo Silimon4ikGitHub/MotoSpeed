@@ -354,10 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da036ef4d103a3d47baaf6a1ade420fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gm: {fileID: 0}
-  wheel: {fileID: 0}
   speed: 1000
-  force: 0
 --- !u!1 &1107042234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,6 +1014,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 783191508308189656, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1068298312980499066, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1073,6 +1074,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1992814017485693324, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286202607642838096, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3823407936297659164, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_Suspension.m_Frequency
       value: 3
@@ -1081,10 +1090,18 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 516ade21aede87f44ad91f6de7de058b, type: 2}
+    - target: {fileID: 4838571057079028875, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5668908154412949612, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 516ade21aede87f44ad91f6de7de058b, type: 2}
+    - target: {fileID: 7024069228120432298, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7029185800831666296, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_UseMotor
       value: 1
@@ -1104,6 +1121,10 @@ PrefabInstance:
     - target: {fileID: 8848281495860821103, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_Name
       value: Bike
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982046619819580895, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9163079673783237564, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_UseMotor
