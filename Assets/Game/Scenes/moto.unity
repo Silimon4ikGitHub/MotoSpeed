@@ -210,6 +210,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8848281495860821103, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
   m_PrefabInstance: {fileID: 8955368882879267533}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &478793735 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2580652689798978037, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+  m_PrefabInstance: {fileID: 8955368882879267533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +312,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &577955351 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 4742933670845398306, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+  m_PrefabInstance: {fileID: 8955368882879267533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &656310337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1065,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1598744567 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5668908154412949612, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+  m_PrefabInstance: {fileID: 8955368882879267533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1758131052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,6 +1107,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1034327406, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: bikeBodyRB
+      value: 
+      objectReference: {fileID: 478793735}
+    - target: {fileID: 1034327406, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: rotateForce
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1034327406, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: currentWheelRB
+      value: 
+      objectReference: {fileID: 1598744567}
+    - target: {fileID: 1034327406, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: forwardWheelRB
+      value: 
+      objectReference: {fileID: 577955351}
     - target: {fileID: 721418603475980348, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: -10.436536
@@ -1151,6 +1182,10 @@ PrefabInstance:
     - target: {fileID: 1190209546310952508, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: 9.991284
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286202607642838096, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Name
+      value: AftWheel
       objectReference: {fileID: 0}
     - target: {fileID: 2821179608863356187, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -1239,6 +1274,10 @@ PrefabInstance:
     - target: {fileID: 6594192423847192980, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: 9.922371
+      objectReference: {fileID: 0}
+    - target: {fileID: 7024069228120432298, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: m_Name
+      value: ForwardWheel
       objectReference: {fileID: 0}
     - target: {fileID: 7811823036313344307, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_ConnectedAnchor.x
