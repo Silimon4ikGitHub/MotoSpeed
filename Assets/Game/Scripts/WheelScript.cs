@@ -33,6 +33,8 @@ public class WheelScript : MonoBehaviour
 
     void RotateBike()
     {
-     bikeBodyRB.AddTorque(transform.up * _force * rotateForce);
+        
+    var rotationVector = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
+     bikeBodyRB.AddTorque(_force * -rotateForce);
     }
 }
