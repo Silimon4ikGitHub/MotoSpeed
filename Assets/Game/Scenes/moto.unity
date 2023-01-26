@@ -307,6 +307,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &577955351 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 4742933670845398306, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+  m_PrefabInstance: {fileID: 8955368882879267533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &656310337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1060,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1598744567 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5668908154412949612, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+  m_PrefabInstance: {fileID: 8955368882879267533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1758131052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,6 +1102,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1034327406, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: rotateForce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1034327406, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: currentWheelRB
+      value: 
+      objectReference: {fileID: 1598744567}
+    - target: {fileID: 1034327406, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
+      propertyPath: forwardWheelRB
+      value: 
+      objectReference: {fileID: 577955351}
     - target: {fileID: 721418603475980348, guid: 9530c313452adb24c8738d5a2772267f, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: -10.436536
