@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class WheelScript : MonoBehaviour
@@ -20,7 +18,7 @@ public class WheelScript : MonoBehaviour
 
     void Update()
     {
-        UseMotorByBotton();
+        UseMotorByBotton(); // Button? Bottom?
         RotateBike();
     }
 
@@ -33,8 +31,6 @@ public class WheelScript : MonoBehaviour
 
     void RotateBike()
     {
-        
-    var rotationVector = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
-     bikeBodyRB.AddTorque(_force * -rotateForce);
+        bikeBodyRB.AddTorque(_force * -rotateForce);
     }
 }

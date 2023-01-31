@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MainCamera : MonoBehaviour
@@ -7,11 +5,12 @@ public class MainCamera : MonoBehaviour
     public GameObject bike;
 
 
-    void Update()
+    private void Update()
     {
         FollowBike();
     }
-    void FollowBike()
+
+    private void FollowBike()
     {
         transform.position = new Vector3 (bike.transform.position.x, transform.position.y, transform.position.z);
     }
