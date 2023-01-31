@@ -18,11 +18,11 @@ public class WheelScript : MonoBehaviour
 
     void Update()
     {
-        UseMotorByBotton(); // Button? Bottom?
+        UseMotorByButton();
         RotateBike();
     }
 
-    void UseMotorByBotton()
+    void UseMotorByButton()
     {
         _force = -Input.GetAxis("Horizontal");
         motor.motorSpeed = speed * _force;
